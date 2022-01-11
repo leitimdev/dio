@@ -1,1 +1,3 @@
-Repositório de arquivos da Digital Innovation
+#Repositório de arquivos do curso na Digital Innovation
+
+## Thiago Teixeira
