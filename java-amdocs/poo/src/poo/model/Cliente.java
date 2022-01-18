@@ -1,5 +1,7 @@
 package poo.model;
 
+import java.util.List;
+
 public class Cliente {
 
 	//Atributos
@@ -7,11 +9,9 @@ public class Cliente {
 	public String nome;
 	public String cpf;
 		
+	public List<Endereco> enderecos;
 
-	public Endereco endereco;
-	public Endereco enderecoEntrega;
-	public Endereco enderecoTrabalho;
-	
+
 		
 	
 }
