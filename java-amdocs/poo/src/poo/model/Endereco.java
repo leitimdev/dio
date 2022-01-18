@@ -15,4 +15,6 @@ public class Endereco {
 	public String estado;
 	public String cep;
 	
+	
+	
 }
