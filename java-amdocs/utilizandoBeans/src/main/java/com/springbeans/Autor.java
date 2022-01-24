@@ -12,8 +12,7 @@ public class Autor implements AutorLivro {
 		this.nome = nome;
 	}
 	
-	public void exibirAutor() {
-		
+	public void exibirAutor() {		
 		System.out.println(this.nome);
 	
 	}
