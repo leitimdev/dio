@@ -1,0 +1,12 @@
+{
+    "firstName": "Joana",
+    "lastName": "Teixeira",
+    "cpf": "196320558-88",
+    "birthDate": "09-04=1949",
+    "phones": [
+        {
+            "type": "HOME",
+            "number": "(16)3996-8506"
+        }
+    ]
+}
