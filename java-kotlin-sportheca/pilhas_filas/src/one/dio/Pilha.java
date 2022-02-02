@@ -14,7 +14,14 @@ public class Pilha {
         refNoEntradaPilha.setRefNo(refAuxiliar);
     }
 
-
+    public No pop(){
+        if(!this.isEmpty()){
+            No noPoped = refNoEntradaPilha;
+            refNoEntradaPilha = refNoEntradaPilha.getRefNo();
+            return noPoped;
+        }
+        return null;
+    }
 
     public No top(){
         return refNoEntradaPilha;
@@ -24,4 +31,22 @@ public class Pilha {
         return refNoEntradaPilha == null ? true : false;
     }
 
+    @Override
+    public String toString() {
+
+        String stringRetorno = "";
+        No noAuxiliar = refNoEntradaPilha;
+
+        while(true){
+            if(noAuxiliar != null){
+                stringRetorno += "[No{dado=" + noAuxiliar.getDado() + "}]\n";
+                noAuxiliar = noAuxiliar.getRefNo();
+            } else {
+                break;
+            }
+        }
+
+        stringRetorno += "=====\n";
+        return stringRetorno;
+    }
 }
