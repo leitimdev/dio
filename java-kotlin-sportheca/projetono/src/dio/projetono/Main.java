@@ -1,5 +1,7 @@
 package dio.projetono;
 
+import static java.lang.System.out;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -15,6 +17,11 @@ public class Main {
         No no4 = new No("Conteudo no4");
         no3.setProximoNo(no4);
 
+        out.println(no1);
+        out.println(no1.getProximoNo());
+        out.println(no1.getProximoNo().getProximoNo());
+        out.println(no1.getProximoNo().getProximoNo().getProximoNo());
+        out.println(no1.getProximoNo().getProximoNo().getProximoNo().getProximoNo());
 
 
 
