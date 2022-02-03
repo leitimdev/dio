@@ -37,15 +37,11 @@ public class No<T> {
 
     @Override
     public String toString() {
-        return "No{" +
-                "conteudo=" + conteudo +
-                '}';
+        return "No{conteudo=" + conteudo + '}';
     }
 
     public String toStringEncadeado() {
-        String str = "No{" +
-                "conteudo=" + conteudo +
-                '}';
+        String str = "No{conteudo=" + conteudo + '}';
 
         if(proximoNo != null){
             str += "->" + proximoNo.toString();
