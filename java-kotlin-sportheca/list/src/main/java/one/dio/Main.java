@@ -25,6 +25,8 @@ public class Main {
         out.println(listCarros.remove(2));
         out.println(listCarros);
 
+
+
     }
 
 }
