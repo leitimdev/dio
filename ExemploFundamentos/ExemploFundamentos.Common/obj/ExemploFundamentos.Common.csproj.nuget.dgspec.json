@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Documents\\dio\\ExemploFundamentos\\ExemploFundamentos.csproj": {}
+    "c:\\Users\\Administrator\\Documents\\dio\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Documents\\dio\\ExemploFundamentos\\ExemploFundamentos.csproj": {
+    "c:\\Users\\Administrator\\Documents\\dio\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\dio\\ExemploFundamentos\\ExemploFundamentos.csproj",
-        "projectName": "ExemploFundamentos",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\dio\\ExemploFundamentos\\ExemploFundamentos.csproj",
+        "projectUniqueName": "c:\\Users\\Administrator\\Documents\\dio\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
+        "projectName": "ExemploFundamentos.Common",
+        "projectPath": "c:\\Users\\Administrator\\Documents\\dio\\ExemploFundamentos\\ExemploFundamentos.Common\\ExemploFundamentos.Common.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\dio\\ExemploFundamentos\\obj\\",
+        "outputPath": "c:\\Users\\Administrator\\Documents\\dio\\ExemploFundamentos\\ExemploFundamentos.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
