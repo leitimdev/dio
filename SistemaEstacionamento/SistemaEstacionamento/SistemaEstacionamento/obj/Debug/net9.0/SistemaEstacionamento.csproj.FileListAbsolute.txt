@@ -1,0 +1,15 @@
+c:\Users\Administrator\Documents\dio\SistemaEstacionamento\SistemaEstacionamento\SistemaEstacionamento\bin\Debug\net9.0\SistemaEstacionamento.exe
+c:\Users\Administrator\Documents\dio\SistemaEstacionamento\SistemaEstacionamento\SistemaEstacionamento\bin\Debug\net9.0\SistemaEstacionamento.deps.json
+c:\Users\Administrator\Documents\dio\SistemaEstacionamento\SistemaEstacionamento\SistemaEstacionamento\bin\Debug\net9.0\SistemaEstacionamento.runtimeconfig.json
+c:\Users\Administrator\Documents\dio\SistemaEstacionamento\SistemaEstacionamento\SistemaEstacionamento\bin\Debug\net9.0\SistemaEstacionamento.dll
+c:\Users\Administrator\Documents\dio\SistemaEstacionamento\SistemaEstacionamento\SistemaEstacionamento\bin\Debug\net9.0\SistemaEstacionamento.pdb
+c:\Users\Administrator\Documents\dio\SistemaEstacionamento\SistemaEstacionamento\SistemaEstacionamento\obj\Debug\net9.0\SistemaEstacionamento.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Administrator\Documents\dio\SistemaEstacionamento\SistemaEstacionamento\SistemaEstacionamento\obj\Debug\net9.0\SistemaEstacionamento.AssemblyInfoInputs.cache
+c:\Users\Administrator\Documents\dio\SistemaEstacionamento\SistemaEstacionamento\SistemaEstacionamento\obj\Debug\net9.0\SistemaEstacionamento.AssemblyInfo.cs
+c:\Users\Administrator\Documents\dio\SistemaEstacionamento\SistemaEstacionamento\SistemaEstacionamento\obj\Debug\net9.0\SistemaEstacionamento.csproj.CoreCompileInputs.cache
+c:\Users\Administrator\Documents\dio\SistemaEstacionamento\SistemaEstacionamento\SistemaEstacionamento\obj\Debug\net9.0\SistemaEstacionamento.sourcelink.json
+c:\Users\Administrator\Documents\dio\SistemaEstacionamento\SistemaEstacionamento\SistemaEstacionamento\obj\Debug\net9.0\SistemaEstacionamento.dll
+c:\Users\Administrator\Documents\dio\SistemaEstacionamento\SistemaEstacionamento\SistemaEstacionamento\obj\Debug\net9.0\refint\SistemaEstacionamento.dll
+c:\Users\Administrator\Documents\dio\SistemaEstacionamento\SistemaEstacionamento\SistemaEstacionamento\obj\Debug\net9.0\SistemaEstacionamento.pdb
+c:\Users\Administrator\Documents\dio\SistemaEstacionamento\SistemaEstacionamento\SistemaEstacionamento\obj\Debug\net9.0\SistemaEstacionamento.genruntimeconfig.cache
+c:\Users\Administrator\Documents\dio\SistemaEstacionamento\SistemaEstacionamento\SistemaEstacionamento\obj\Debug\net9.0\ref\SistemaEstacionamento.dll
