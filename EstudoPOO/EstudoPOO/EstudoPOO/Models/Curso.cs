@@ -17,10 +17,14 @@ namespace EstudoPOO.Models
 
         public void ListarAlunos()
         {
-            foreach (var aluno in Alunos)
+            Console.WriteLine($"Alunos do curso de: {Nome}: ");
+            for (int i = 0; i < Alunos.Count; i++)
             {
-                Console.WriteLine(aluno.NomeCompleto);
+                //string texto = "Nº" + i + " - " + Alunos[i].NomeCompleto;
+                string texto = $"Nº {i + 1} - {Alunos[i].NomeCompleto}";
+                Console.WriteLine(texto);
             }
+
         }
 
         public void RemoverAluno(Pessoa aluno)
