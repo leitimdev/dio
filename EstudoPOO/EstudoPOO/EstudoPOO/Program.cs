@@ -1,6 +1,39 @@
 ﻿using EstudoPOO.Models;
 
-Dictionary<string, string> estados = new Dictionary<string, string>();
+int numero = 10;
+bool par = numero % 2 == 0;
+string resultado = par ? "par" : "ímpar";
+Console.WriteLine($"O número {numero} é {resultado}.");
+
+/* Pessoa pessoa1 = new Pessoa(nome: "Thiago", sobrenome: "Silva", idade: 42);
+(string nome, string sobrenome, int idade) = pessoa1;
+Console.WriteLine($"Nome: {nome}, Sobrenome: {sobrenome}, Idade: {idade}"); */
+
+/* LeituraArquivo leitura = new LeituraArquivo();
+
+var (sucesso, linhasArquivos, quantidadeLinhas) = leitura.Ler("Arquivos/arquivoLeitura.txt");
+
+if (sucesso)
+{
+    Console.WriteLine($"Quantidade de linhas no arquivo: {quantidadeLinhas}");
+    foreach (var linha in linhasArquivos)
+    {
+        Console.WriteLine(linha);
+    }
+}
+else
+{
+    Console.WriteLine("Não foi possível ler o arquivo.");
+}
+ */
+
+
+/* (int, string, string, decimal) tupla = (1, "Thiago", "Silva", 1.80m);
+Console.WriteLine($"Id: {tupla.Item1}, Nome: {tupla.Item2}, Sobrenome: {tupla.Item3}, Altura: {tupla.Item4}m");
+ */
+
+
+/* Dictionary<string, string> estados = new Dictionary<string, string>();
 estados.Add("SP", "São Paulo");
 estados.Add("RJ", "Rio de Janeiro");
 estados.Add("MG", "Minas Gerais");
@@ -31,6 +64,7 @@ else
 
 Console.WriteLine($"Total de estados no dicionário: {estados.Count}");
 Console.WriteLine($"Estado: {estados["SP"]}");
+ */
 
 // ########### PILHA #############  
 
