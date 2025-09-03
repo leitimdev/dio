@@ -1,9 +1,33 @@
 ﻿using EstudoPOO.Models;
+using Newtonsoft.Json;
 
-int numero = 10;
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+List<Venda_Deserializando> vendas = JsonConvert.DeserializeObject<List<Venda_Deserializando>>(conteudoArquivo);
+
+foreach (var venda in vendas)
+{
+    Console.WriteLine($"ID: {venda.Id}, Produto: {venda.Produto}, Preço: {venda.Preco}, Data da Venda: {venda.DataVenda}");
+}
+
+
+
+
+/* DateTime dataAtual = DateTime.Now;
+
+Venda venda1 = new Venda(1, "Produto 1", 10.99m, dataAtual);
+Venda venda2 = new Venda(2, "Produto 2", 20.99m, dataAtual);
+Venda venda3 = new Venda(3, "Produto 3", 30.99m, dataAtual);
+
+string json = JsonConvert.SerializeObject(new List<Venda> { venda1, venda2, venda3 }, Formatting.Indented);
+Console.WriteLine(json);
+File.WriteAllText("Arquivos/vendas.json", json);
+ */
+
+/* int numero = 10;
 bool par = numero % 2 == 0;
 string resultado = par ? "par" : "ímpar";
 Console.WriteLine($"O número {numero} é {resultado}.");
+ */
 
 /* Pessoa pessoa1 = new Pessoa(nome: "Thiago", sobrenome: "Silva", idade: 42);
 (string nome, string sobrenome, int idade) = pessoa1;

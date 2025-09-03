@@ -13,3 +13,6 @@ c:\Users\Administrator\Documents\dio\EstudoPOO\EstudoPOO\EstudoPOO\obj\Debug\net
 c:\Users\Administrator\Documents\dio\EstudoPOO\EstudoPOO\EstudoPOO\obj\Debug\net9.0\EstudoPOO.pdb
 c:\Users\Administrator\Documents\dio\EstudoPOO\EstudoPOO\EstudoPOO\obj\Debug\net9.0\EstudoPOO.genruntimeconfig.cache
 c:\Users\Administrator\Documents\dio\EstudoPOO\EstudoPOO\EstudoPOO\obj\Debug\net9.0\ref\EstudoPOO.dll
+c:\Users\Administrator\Documents\dio\EstudoPOO\EstudoPOO\EstudoPOO\bin\Debug\net9.0\Newtonsoft.Json.dll
+c:\Users\Administrator\Documents\dio\EstudoPOO\EstudoPOO\EstudoPOO\obj\Debug\net9.0\EstudoPOO.csproj.AssemblyReference.cache
+c:\Users\Administrator\Documents\dio\EstudoPOO\EstudoPOO\EstudoPOO\obj\Debug\net9.0\EstudoPOO.csproj.Up2Date
