@@ -1,0 +1,15 @@
+c:\Users\Administrator\Documents\dio\Hotel\Hotel\Hotel\bin\Debug\net9.0\Hotel.exe
+c:\Users\Administrator\Documents\dio\Hotel\Hotel\Hotel\bin\Debug\net9.0\Hotel.deps.json
+c:\Users\Administrator\Documents\dio\Hotel\Hotel\Hotel\bin\Debug\net9.0\Hotel.runtimeconfig.json
+c:\Users\Administrator\Documents\dio\Hotel\Hotel\Hotel\bin\Debug\net9.0\Hotel.dll
+c:\Users\Administrator\Documents\dio\Hotel\Hotel\Hotel\bin\Debug\net9.0\Hotel.pdb
+c:\Users\Administrator\Documents\dio\Hotel\Hotel\Hotel\obj\Debug\net9.0\Hotel.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Administrator\Documents\dio\Hotel\Hotel\Hotel\obj\Debug\net9.0\Hotel.AssemblyInfoInputs.cache
+c:\Users\Administrator\Documents\dio\Hotel\Hotel\Hotel\obj\Debug\net9.0\Hotel.AssemblyInfo.cs
+c:\Users\Administrator\Documents\dio\Hotel\Hotel\Hotel\obj\Debug\net9.0\Hotel.csproj.CoreCompileInputs.cache
+c:\Users\Administrator\Documents\dio\Hotel\Hotel\Hotel\obj\Debug\net9.0\Hotel.sourcelink.json
+c:\Users\Administrator\Documents\dio\Hotel\Hotel\Hotel\obj\Debug\net9.0\Hotel.dll
+c:\Users\Administrator\Documents\dio\Hotel\Hotel\Hotel\obj\Debug\net9.0\refint\Hotel.dll
+c:\Users\Administrator\Documents\dio\Hotel\Hotel\Hotel\obj\Debug\net9.0\Hotel.pdb
+c:\Users\Administrator\Documents\dio\Hotel\Hotel\Hotel\obj\Debug\net9.0\Hotel.genruntimeconfig.cache
+c:\Users\Administrator\Documents\dio\Hotel\Hotel\Hotel\obj\Debug\net9.0\ref\Hotel.dll
