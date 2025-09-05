@@ -1,0 +1,15 @@
+c:\Users\Administrator\Documents\dio\Celular\Celular\Celular\bin\Debug\net9.0\Celular.exe
+c:\Users\Administrator\Documents\dio\Celular\Celular\Celular\bin\Debug\net9.0\Celular.deps.json
+c:\Users\Administrator\Documents\dio\Celular\Celular\Celular\bin\Debug\net9.0\Celular.runtimeconfig.json
+c:\Users\Administrator\Documents\dio\Celular\Celular\Celular\bin\Debug\net9.0\Celular.dll
+c:\Users\Administrator\Documents\dio\Celular\Celular\Celular\bin\Debug\net9.0\Celular.pdb
+c:\Users\Administrator\Documents\dio\Celular\Celular\Celular\obj\Debug\net9.0\Celular.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Administrator\Documents\dio\Celular\Celular\Celular\obj\Debug\net9.0\Celular.AssemblyInfoInputs.cache
+c:\Users\Administrator\Documents\dio\Celular\Celular\Celular\obj\Debug\net9.0\Celular.AssemblyInfo.cs
+c:\Users\Administrator\Documents\dio\Celular\Celular\Celular\obj\Debug\net9.0\Celular.csproj.CoreCompileInputs.cache
+c:\Users\Administrator\Documents\dio\Celular\Celular\Celular\obj\Debug\net9.0\Celular.sourcelink.json
+c:\Users\Administrator\Documents\dio\Celular\Celular\Celular\obj\Debug\net9.0\Celular.dll
+c:\Users\Administrator\Documents\dio\Celular\Celular\Celular\obj\Debug\net9.0\refint\Celular.dll
+c:\Users\Administrator\Documents\dio\Celular\Celular\Celular\obj\Debug\net9.0\Celular.pdb
+c:\Users\Administrator\Documents\dio\Celular\Celular\Celular\obj\Debug\net9.0\Celular.genruntimeconfig.cache
+c:\Users\Administrator\Documents\dio\Celular\Celular\Celular\obj\Debug\net9.0\ref\Celular.dll

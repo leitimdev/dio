@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Documents\\dio\\EstudoPOO_v2\\EstudoPOO_v2\\EstudoPOO_v2\\EstudoPOO_v2.csproj": {}
+    "c:\\Users\\Administrator\\Documents\\dio\\Celular\\Celular\\Celular\\Celular.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Documents\\dio\\EstudoPOO_v2\\EstudoPOO_v2\\EstudoPOO_v2\\EstudoPOO_v2.csproj": {
+    "c:\\Users\\Administrator\\Documents\\dio\\Celular\\Celular\\Celular\\Celular.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\dio\\EstudoPOO_v2\\EstudoPOO_v2\\EstudoPOO_v2\\EstudoPOO_v2.csproj",
-        "projectName": "EstudoPOO_v2",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\dio\\EstudoPOO_v2\\EstudoPOO_v2\\EstudoPOO_v2\\EstudoPOO_v2.csproj",
+        "projectUniqueName": "c:\\Users\\Administrator\\Documents\\dio\\Celular\\Celular\\Celular\\Celular.csproj",
+        "projectName": "Celular",
+        "projectPath": "c:\\Users\\Administrator\\Documents\\dio\\Celular\\Celular\\Celular\\Celular.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\dio\\EstudoPOO_v2\\EstudoPOO_v2\\EstudoPOO_v2\\obj\\",
+        "outputPath": "c:\\Users\\Administrator\\Documents\\dio\\Celular\\Celular\\Celular\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
