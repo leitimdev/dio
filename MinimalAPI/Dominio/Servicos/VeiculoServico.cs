@@ -12,6 +12,11 @@ namespace MinimalAPI.Dominio.Servicos
     {
         private readonly DbContexto _dbContexto;
 
+        public VeiculoServico(DbContexto dbContexto)
+        {
+            _dbContexto = dbContexto;
+        }
+
         public Veiculo? BuscaPorID(int id)
         {
             return _dbContexto.Veiculos.Where(v => v.Id == id).FirstOrDefault();
@@ -35,7 +40,7 @@ namespace MinimalAPI.Dominio.Servicos
             _dbContexto.SaveChanges();
         }
         
-        public List<Veiculo> Todos(int pagina = 1, string? nome = null, string? marca = null)
+        public List<Veiculo> Todos(int? pagina = 1, string? nome = null, string? marca = null)
         {
             int pageSize = 10;
             var query = _dbContexto.Veiculos.AsQueryable();
@@ -50,7 +55,12 @@ namespace MinimalAPI.Dominio.Servicos
                 query = query.Where(v => v.Marca.Contains(marca));
             }
 
-            return query.Skip((pagina - 1) * pageSize).Take(pageSize).ToList();
+            if(pagina != null)
+            {
+                query = query.Skip((pagina.Value - 1) * pageSize).Take(pageSize);
+            }
+
+            return query.ToList();
         }
     }
 }
