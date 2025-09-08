@@ -1,0 +1,17 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using MinimalAPI.Dominio.Entidades;
+
+namespace MinimalAPI.Dominio.Interfaces
+{
+    public interface IVeiculoServicos
+    {
+        List<Veiculo> Todos(int pagina, string? nome = null, string? marca = null);
+        Veiculo? BuscaPorID(int id);
+        void Incluir(Veiculo veiculo);
+        void Alterar(Veiculo veiculo);
+        void Excluir(Veiculo veiculo);
+    }
+}
