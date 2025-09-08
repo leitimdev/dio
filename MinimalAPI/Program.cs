@@ -33,17 +33,67 @@ app.MapGet("/", () => Results.Json(new Home())).WithTags("Home");
 
 #region Administrador Endpoints
 app.MapPost("/administradores/login", ([FromBody] LoginDTO loginDTO, IAdministradorServicos administradorServicos) =>
-{    
+{
     if (administradorServicos.Login(loginDTO) != null)
     {
         return Results.Ok("Login successful");
     }
     return Results.Unauthorized();
 }).WithTags("Administradores");
+
+app.MapGet("/administradores", ([FromQuery] int? pagina, IAdministradorServicos administradorServicos) =>
+{
+    return Results.Ok(administradorServicos.Todos(pagina));
+
+}).WithTags("Administradores");
+
+app.MapGet("/administradores/{id}", ([FromRoute] int id, IAdministradorServicos administradorServicos) =>
+{
+    var administrador = administradorServicos.BuscaPorID(id);
+    return administrador != null ? Results.Ok(administrador) : Results.NotFound();
+    
+}).WithTags("Administradores");
+
+app.MapPost("/administradores", ([FromBody] AdministradorDTO administradorDTO, IAdministradorServicos administradorServicos) =>
+{
+
+    var mensagens = new ErrosDeValidacoes
+    {
+        Mensagens = new List<string>()
+    };
+
+    if(administradorDTO.Email == null)
+    {
+        mensagens.Mensagens.Add("Email is required.");
+    }
+    if(administradorDTO.Senha == null)
+    {
+        mensagens.Mensagens.Add("Senha is required.");
+    }
+    if(administradorDTO.Perfil == null)
+    {
+        mensagens.Mensagens.Add("Perfil is required.");
+    }
+
+    if (mensagens.Mensagens.Count > 0)
+    {
+        return Results.BadRequest(mensagens);
+    }
+
+    var administrador = new Administrador
+    {
+        Email = administradorDTO.Email ?? string.Empty,
+        Senha = administradorDTO.Senha ?? string.Empty,
+        Perfil = administradorDTO.Perfil?.ToString() ?? string.Empty
+    };
+    administradorServicos.Incluir(administrador);
+
+
+    return Results.Created($"/administrador/{administrador.Id}", administrador);
+}).WithTags("Administradores");
 #endregion
 
 #region Veiculo Endpoints
-
 ErrosDeValidacoes validaDTO(VeiculoDTO veiculoDTO)
 {
     var mensagens = new ErrosDeValidacoes
