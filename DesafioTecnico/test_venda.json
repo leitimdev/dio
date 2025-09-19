@@ -1,0 +1,8 @@
+{
+  "codigoProduto": "1",
+  "nomeProduto": "Produto A",
+  "quantidade": 5,
+  "precoUnitario": 15.00,
+  "cliente": "Cliente Teste",
+  "vendedor": "Vendedor Teste"
+}

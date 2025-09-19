@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\dio\DesafioTecnico\Shared\DesafioTecnico.Shared\bin\Debug\net10.0\DesafioTecnico.Shared.deps.json
+C:\Users\Administrator\Documents\dio\DesafioTecnico\Shared\DesafioTecnico.Shared\bin\Debug\net10.0\DesafioTecnico.Shared.dll
+C:\Users\Administrator\Documents\dio\DesafioTecnico\Shared\DesafioTecnico.Shared\bin\Debug\net10.0\DesafioTecnico.Shared.pdb
+C:\Users\Administrator\Documents\dio\DesafioTecnico\Shared\DesafioTecnico.Shared\obj\Debug\net10.0\DesafioTecnico.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\dio\DesafioTecnico\Shared\DesafioTecnico.Shared\obj\Debug\net10.0\DesafioTecnico.Shared.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\dio\DesafioTecnico\Shared\DesafioTecnico.Shared\obj\Debug\net10.0\DesafioTecnico.Shared.AssemblyInfo.cs
+C:\Users\Administrator\Documents\dio\DesafioTecnico\Shared\DesafioTecnico.Shared\obj\Debug\net10.0\DesafioTecnico.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\dio\DesafioTecnico\Shared\DesafioTecnico.Shared\obj\Debug\net10.0\DesafioTecnico.Shared.sourcelink.json
+C:\Users\Administrator\Documents\dio\DesafioTecnico\Shared\DesafioTecnico.Shared\obj\Debug\net10.0\DesafioTecnico.Shared.dll
+C:\Users\Administrator\Documents\dio\DesafioTecnico\Shared\DesafioTecnico.Shared\obj\Debug\net10.0\refint\DesafioTecnico.Shared.dll
+C:\Users\Administrator\Documents\dio\DesafioTecnico\Shared\DesafioTecnico.Shared\obj\Debug\net10.0\DesafioTecnico.Shared.pdb
+C:\Users\Administrator\Documents\dio\DesafioTecnico\Shared\DesafioTecnico.Shared\obj\Debug\net10.0\ref\DesafioTecnico.Shared.dll
