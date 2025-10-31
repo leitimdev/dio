@@ -1,0 +1,131 @@
+version: '3.8'
+
+services:
+  # Banco de dados MySQL
+  mysql:
+    image: mysql:8.0
+    container_name: desafio_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: desafiotecnico
+    ports:
+      - "3307:3306"  # Mudou para 3307 para evitar conflito
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - desafio_network
+
+  # RabbitMQ
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: desafio_rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    ports:
+      - "5672:5672"    # AMQP port
+      - "15672:15672"  # Management UI
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - desafio_network
+
+  # AuthService
+  authservice:
+    build:
+      context: .
+      dockerfile: Microservices/AuthService/DesafioTecnico.AuthService/Dockerfile
+    container_name: desafio_authservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=password
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+      - ConnectionStrings__DefaultConnection=server=mysql;database=desafiotecnico_auth;user=root;password=123456;
+    ports:
+      - "7001:443"
+    depends_on:
+      - mysql
+    networks:
+      - desafio_network
+    volumes:
+      - ~/.aspnet/https:/https:ro
+
+  # EstoqueService
+  estoqueservice:
+    build:
+      context: .
+      dockerfile: Microservices/EstoqueService/DesafioTecnico.EstoqueService/Dockerfile
+    container_name: desafio_estoqueservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=password
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+      - ConnectionStrings__DefaultConnection=server=mysql;database=desafiotecnico_estoque;user=root;password=123456;
+      - RabbitMQ__HostName=rabbitmq
+    ports:
+      - "7002:443"
+    depends_on:
+      - mysql
+      - rabbitmq
+    networks:
+      - desafio_network
+    volumes:
+      - ~/.aspnet/https:/https:ro
+
+  # VendasService
+  vendasservice:
+    build:
+      context: .
+      dockerfile: Microservices/VendasService/DesafioTecnico.VendasService/Dockerfile
+    container_name: desafio_vendasservice
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=password
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+      - ConnectionStrings__DefaultConnection=server=mysql;database=desafiotecnico_vendas;user=root;password=123456;
+      - RabbitMQ__HostName=rabbitmq
+    ports:
+      - "7003:443"
+    depends_on:
+      - mysql
+      - rabbitmq
+    networks:
+      - desafio_network
+    volumes:
+      - ~/.aspnet/https:/https:ro
+
+  # API Gateway
+  apigateway:
+    build:
+      context: .
+      dockerfile: ApiGateway/DesafioTecnico.ApiGateway/Dockerfile
+    container_name: desafio_apigateway
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=password
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+      - ReverseProxy__Clusters__auth-cluster__Destinations__auth-destination__Address=https://authservice:443/
+      - ReverseProxy__Clusters__estoque-cluster__Destinations__estoque-destination__Address=https://estoqueservice:443/
+      - ReverseProxy__Clusters__vendas-cluster__Destinations__vendas-destination__Address=https://vendasservice:443/
+    ports:
+      - "7000:443"
+    depends_on:
+      - authservice
+      - estoqueservice
+      - vendasservice
+    networks:
+      - desafio_network
+    volumes:
+      - ~/.aspnet/https:/https:ro
+
+networks:
+  desafio_network:
+    driver: bridge
+
+volumes:
+  mysql_data:
+  rabbitmq_data:

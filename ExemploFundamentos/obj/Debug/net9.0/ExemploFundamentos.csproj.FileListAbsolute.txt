@@ -1,0 +1,15 @@
+c:\Users\Administrator\Documents\dio\ExemploFundamentos\bin\Debug\net9.0\ExemploFundamentos.exe
+c:\Users\Administrator\Documents\dio\ExemploFundamentos\bin\Debug\net9.0\ExemploFundamentos.deps.json
+c:\Users\Administrator\Documents\dio\ExemploFundamentos\bin\Debug\net9.0\ExemploFundamentos.runtimeconfig.json
+c:\Users\Administrator\Documents\dio\ExemploFundamentos\bin\Debug\net9.0\ExemploFundamentos.dll
+c:\Users\Administrator\Documents\dio\ExemploFundamentos\bin\Debug\net9.0\ExemploFundamentos.pdb
+c:\Users\Administrator\Documents\dio\ExemploFundamentos\obj\Debug\net9.0\ExemploFundamentos.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Administrator\Documents\dio\ExemploFundamentos\obj\Debug\net9.0\ExemploFundamentos.AssemblyInfoInputs.cache
+c:\Users\Administrator\Documents\dio\ExemploFundamentos\obj\Debug\net9.0\ExemploFundamentos.AssemblyInfo.cs
+c:\Users\Administrator\Documents\dio\ExemploFundamentos\obj\Debug\net9.0\ExemploFundamentos.csproj.CoreCompileInputs.cache
+c:\Users\Administrator\Documents\dio\ExemploFundamentos\obj\Debug\net9.0\ExemploFundamentos.sourcelink.json
+c:\Users\Administrator\Documents\dio\ExemploFundamentos\obj\Debug\net9.0\ExemploFundamentos.dll
+c:\Users\Administrator\Documents\dio\ExemploFundamentos\obj\Debug\net9.0\refint\ExemploFundamentos.dll
+c:\Users\Administrator\Documents\dio\ExemploFundamentos\obj\Debug\net9.0\ExemploFundamentos.pdb
+c:\Users\Administrator\Documents\dio\ExemploFundamentos\obj\Debug\net9.0\ExemploFundamentos.genruntimeconfig.cache
+c:\Users\Administrator\Documents\dio\ExemploFundamentos\obj\Debug\net9.0\ref\ExemploFundamentos.dll
