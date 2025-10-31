@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17428185-858f-466c-ad2b-93efddacc6be" name="Changes" comment="Exemplo ListSetMapCollections" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;xthiagoteixeira&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/xthiagoteixeira/dio.git&quot;,
+    &quot;accountId&quot;: &quot;96e9c9c1-3cd6-4b42-a76e-fc6aa08c3f38&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2hmbcDr5CRSiAGY76rbJSv3XmDn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AgendaContatos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AgendaEventos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CadastroProdutos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CatalogoLivros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConjuntoConvidados.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EstoqueProdutos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListaTarefa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrdenacaoPessoa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.app.map.OperacoesBasicas.AgendaContatos.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.AIAssistantPromptsLibrary&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.AgendaEventos">
+    <configuration name="AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.set.Pesquisa.AgendaContatos" />
+      <module name="ListSetMap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.set.Pesquisa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AgendaEventos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.map.Ordenacao.AgendaEventos" />
+      <module name="ListSetMap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.map.Ordenacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CadastroProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.set.Ordenacao.CadastroProdutos" />
+      <module name="ListSetMap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.set.Ordenacao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EstoqueProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.map.Pesquisa.EstoqueProdutos" />
+      <module name="ListSetMap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.map.Pesquisa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app.map.OperacoesBasicas.AgendaContatos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.map.OperacoesBasicas.AgendaContatos" />
+      <module name="ListSetMap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.map.OperacoesBasicas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AgendaEventos" />
+        <item itemvalue="Application.EstoqueProdutos" />
+        <item itemvalue="Application.app.map.OperacoesBasicas.AgendaContatos" />
+        <item itemvalue="Application.CadastroProdutos" />
+        <item itemvalue="Application.AgendaContatos" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17428185-858f-466c-ad2b-93efddacc6be" name="Changes" comment="" />
+      <created>1718202276955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718202276955</updated>
+      <workItem from="1718202277992" duration="2571000" />
+      <workItem from="1718226834823" duration="19000" />
+      <workItem from="1718280395776" duration="10471000" />
+      <workItem from="1718322399217" duration="43000" />
+      <workItem from="1718322449202" duration="310000" />
+      <workItem from="1718322768302" duration="614000" />
+      <workItem from="1718323396599" duration="3277000" />
+      <workItem from="1718364806493" duration="17265000" />
+      <workItem from="1718398144916" duration="1038000" />
+      <workItem from="1718457429368" duration="4971000" />
+      <workItem from="1718486493500" duration="20041000" />
+      <workItem from="1718649605029" duration="340000" />
+      <workItem from="1718650757077" duration="21594000" />
+      <workItem from="1718819844488" duration="260000" />
+      <workItem from="1718820396549" duration="1891000" />
+    </task>
+    <task id="LOCAL-00001" summary="Exemplo ListSetMapCollections">
+      <option name="closed" value="true" />
+      <created>1718329864260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718329864260</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Exemplo ListSetMapCollections">
+      <option name="closed" value="true" />
+      <created>1718375269225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718375269225</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exemplo ListSetMapCollections">
+      <option name="closed" value="true" />
+      <created>1718380972491</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718380972491</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Exemplo ListSetMapCollections">
+      <option name="closed" value="true" />
+      <created>1718470641666</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718470641666</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Exemplo ListSetMapCollections">
+      <option name="closed" value="true" />
+      <created>1718546619931</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718546619931</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Exemplo ListSetMapCollections">
+      <option name="closed" value="true" />
+      <created>1718573764555</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718573764555</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Exemplo ListSetMapCollections">
+      <option name="closed" value="true" />
+      <created>1718638496855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718638496855</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Exemplo ListSetMapCollections">
+      <option name="closed" value="true" />
+      <created>1718659438986</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718659438986</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Exemplo ListSetMapCollections">
+      <option name="closed" value="true" />
+      <created>1718826019864</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718826019864</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exemplo ListSetMapCollections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exemplo ListSetMapCollections" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
