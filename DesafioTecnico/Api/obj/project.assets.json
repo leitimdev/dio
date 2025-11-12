@@ -2085,11 +2085,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\dio\\DesafioTecnico\\Api\\DesafioTecnico.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\dio\\DesafioTecnico\\Api\\DesafioTecnico.csproj",
       "projectName": "DesafioTecnico",
-      "projectPath": "C:\\Users\\Administrator\\Documents\\dio\\DesafioTecnico\\Api\\DesafioTecnico.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\dio\\DesafioTecnico\\Api\\DesafioTecnico.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Documents\\dio\\DesafioTecnico\\Api\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\dio\\DesafioTecnico\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
