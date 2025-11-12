@@ -1,0 +1,12 @@
+D:\GitHub\desafio-final-personapi\src\main\java\one\digitalinnovation\personapi\entity\Person.java
+D:\GitHub\desafio-final-personapi\src\main\java\one\digitalinnovation\personapi\entity\Phone.java
+D:\GitHub\desafio-final-personapi\src\main\java\one\digitalinnovation\personapi\controller\PersonController.java
+D:\GitHub\desafio-final-personapi\src\main\java\one\digitalinnovation\personapi\dto\request\PhoneDTO.java
+D:\GitHub\desafio-final-personapi\src\main\java\one\digitalinnovation\personapi\repository\PersonRepository.java
+D:\GitHub\desafio-final-personapi\src\main\java\one\digitalinnovation\personapi\dto\request\PersonDTO.java
+D:\GitHub\desafio-final-personapi\src\main\java\one\digitalinnovation\personapi\PersonapiApplication.java
+D:\GitHub\desafio-final-personapi\src\main\java\one\digitalinnovation\personapi\service\PersonService.java
+D:\GitHub\desafio-final-personapi\src\main\java\one\digitalinnovation\personapi\dto\response\MessageResponseDTO.java
+D:\GitHub\desafio-final-personapi\src\main\java\one\digitalinnovation\personapi\exception\PersonNotFoundException.java
+D:\GitHub\desafio-final-personapi\src\main\java\one\digitalinnovation\personapi\enums\PhoneType.java
+D:\GitHub\desafio-final-personapi\src\main\java\one\digitalinnovation\personapi\mapper\PersonMapper.java
